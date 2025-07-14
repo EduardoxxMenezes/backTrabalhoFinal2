@@ -5,6 +5,6 @@ export const AppDataSource = new DataSource({
     type: 'sqlite',
     database: 'usuariospetshop.sqlite',
     synchronize: true,
-    logging: true,
+    logging: false,
     entities: ["src/model/*.ts"],
 });
